@@ -1335,7 +1335,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 14px;
+  --global-font-size: 16px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
@@ -1376,7 +1376,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: ZhuZiAWan;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1668,7 +1668,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
   font-size: var(--global-font-size);
-  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-family: JetBrains Mono Light !important;
 }
 #article-container code {
   padding: 2px 4px;
@@ -6274,8 +6274,6 @@ div#category {
     background: rgba(0, 0, 0, 0.8);
 }
 
-
-
 /* 页脚透明 */
 #footer {
     background: transparent !important;
@@ -6385,6 +6383,17 @@ div#quit-board.fixedcomment {
 
 [data-theme="dark"] div#quit-board.fixedcomment {
     background: rgba(147, 146, 128, 0.3);
+}
+@font-face {
+    font-family: 'ZhuZiAWan';
+    src: url(/fonts/ZhuZiAWan-2.ttc);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono Light';
+    src: url(/fonts/JetBrainsMono-Light.ttf);
+    font-display: swap;
 }
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
     left: -66px !important;
@@ -6651,6 +6660,12 @@ div#quit-board.fixedcomment {
         -ms-filter: none;
         filter: none;
     }
+}
+.welcome-swal-html {
+    text-align: left;
+    /* margin: 0px 50px, 0px, 50px; */
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .search-dialog {
   position: fixed;
