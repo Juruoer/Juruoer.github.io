@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>关于 LeetCode 周赛题解或停止更新决定的公告</title>
+      <link href="/2022/Anouncement/"/>
+      <url>/2022/Anouncement/</url>
+      
+        <content type="html"><![CDATA[<p>现在感觉考研复习的时间越来越紧张了，所以之后的 <a href="https://leetcode.cn/">LeetCode</a> 周赛题解 <s>(虽然次周赛的题解只会花费一个下午的时间)</s> 可能会停止更新，或者只对部分题发布题解，但是周赛一定会继续参加。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记事 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+            <tag> Blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>记录 LeetCode 第 300 场周赛</title>
       <link href="/2022/LC-WeeklyContext-300/"/>
       <url>/2022/LC-WeeklyContext-300/</url>
