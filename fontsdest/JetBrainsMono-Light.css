@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "JetBrains Mono Light";
+    src: url("JetBrainsMono-Light.eot"); /* IE9 */
+    src: url("JetBrainsMono-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("JetBrainsMono-Light.woff2") format("woff2"), /* chrome 36+, firefox 39+,iOS 10+, Android 67+ */
+    url("JetBrainsMono-Light.woff") format("woff"), /* chrome, firefox */
+    url("JetBrainsMono-Light.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("JetBrainsMono-Light.svg#JetBrains Mono Light") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
